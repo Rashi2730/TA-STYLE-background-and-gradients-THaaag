@@ -1,0 +1,191 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+body {
+    font-family: 'Outfit', sans-serif;
+    background-image: linear-gradient(to bottom, rgb(32 34 47), black 70%);
+    background-repeat: no-repeat;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+/*  Header  */
+
+.col {
+    flex: 0 1 50%;
+}
+.heading {
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.small {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(97 106 137);
+}
+.toggle {
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(97 106 137);
+    padding-left: 390px;
+}
+.col p i{
+    margin-top: 60px;
+    color: rgb(60 198 153);
+    padding: 0 5px;
+}
+
+/* Section 1 */
+
+.sec1 {
+    padding: 40px 0;
+    text-align: center;
+}
+.colm .heading {
+    font-size: 30px;
+    padding: 10px 0;
+}
+.colm {
+    flex: 0 1 23%;
+    padding: 30px 0;
+    background-color: rgb(37, 43, 67);
+}
+.colm .small {
+    letter-spacing: 5px;
+}
+.b1, .b2 {
+    border-top: 2px solid rgb(27 122 204);
+}
+.b3 {
+    border-top: 2px solid rgb(188 89 122);  
+}
+.b4 {
+    border-top: 2px solid darkred;  
+}
+.fb, .tw, .ig, .ytb {
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(97 106 137);
+    padding-bottom: 20px;
+}
+.fb i {
+    color: rgb(27 122 204);
+    padding: 0 5px;
+    vertical-align: middle;
+}
+.tw i{
+    color: rgb(27 122 204);
+    padding: 0 5px;
+    vertical-align: middle;
+}
+.ig i{
+    color:rgb(188 89 122);
+    vertical-align: middle;
+    padding: 0 5px;
+}
+.ytb i{
+    color: darkred;
+    vertical-align: middle;
+    padding: 0 5px;
+}
+.arrow {
+    color: rgb(35 132 116);
+    padding-top: 30px;
+}
+.arrow i{
+    padding: 0 10px;
+}
+.red {
+    color: red;  
+}
+
+
+
+/* Section 2 */
+
+
+
+
+.sec2, .sec3{
+    padding-bottom: 40px;
+}
+.sec2 .colm {
+    height: 140px;
+}
+.sec2 .heading{
+    padding-bottom: 40px;
+}
+.row {
+    flex: 0 1 40%;
+    padding: 0 10px;
+}
+.row .small {
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+}
+.num {
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+    padding-top: 15px; 
+}
