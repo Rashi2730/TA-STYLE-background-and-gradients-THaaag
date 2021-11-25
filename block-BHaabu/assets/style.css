@@ -1,0 +1,124 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+/* General  */
+
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+div{
+    font-size: 20px;
+    color: black;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+
+/* bgimg */
+
+.bgimg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) , url("../assets/media/mrwallpapers.jpg") ;
+}
+
+
+/* Header */
+
+h1 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 35px;
+    color: #530b1a;
+    padding: 60px;
+}
+
+
+/* Sec1 */
+
+.sec1 {
+    padding: 30px 60px;
+}
+.b1 , .b2 , .b3 {
+    flex: 0 1 30%;
+    background-color: rgb(236, 235, 156);
+    border-radius: 8px;
+    margin: 0 10px;
+    padding: 100px 0;
+}
+.b2 {
+    background-image: linear-gradient(to right , rgb(77, 72, 72) , rgb(236, 235, 156));
+
+}
+.b3 {
+    background-image: radial-gradient( rgb(236, 235, 156), rgb(77, 72, 72));
+
+}
+
+
+/* Sec2 */
+
+
+
+.sec2 {
+    padding: 60px 0;
+}
+.image {
+    width: 100%;
+    background-image: linear-gradient( to right bottom , rgba(0, 0, 0, 0.7) 45%, rgb(230, 32, 32)), url(../assets/media/10875252.jpg);
+    border-radius: 10px;
+    padding: 200px 0;
+    color: white;
+}
